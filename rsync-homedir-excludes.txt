@@ -5,8 +5,10 @@
 # Author: Ruben Barkow-Kuder <https://github.com/rubo77/rsync-homedir-excludes>
 # Version: 2019-11-30
 #
+# Personal Fork - 2021/11/21
+#
 # #Usage:
-#    USER=<homedir username here>
+#    USER=camr
 #    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
 
@@ -14,6 +16,12 @@
 # directories, probably not worth a backup    #
 # (uncomment the files you don't need)        #
 ###############################################
+
+# FORKED USR OPTS
+
+Videos/_misct
+HOMELAB/ISO
+
 
 #.android
 #.AndroidStudio*/
